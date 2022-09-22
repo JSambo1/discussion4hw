@@ -16,7 +16,7 @@ class Dice:
     # it returns "Last roll: value" where value is the last value in the list that tracks the rolls
 
     def __str__(self):
-        return "Last roll: " + str(self.roll_history[-1])
+        return "Last roll: " + str(self.roll_history[-1]) 
 
 
     # create the roll method
